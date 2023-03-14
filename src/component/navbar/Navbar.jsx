@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <div className="shadow">
                 <div className='logo'> <img src="https://almablog-media.s3.ap-south-1.amazonaws.com/image_19400_1_5042248765.png" alt="" /></div>
-                <div className='container'>
+                <div className='container' style={{maxWidth:'1590px'}}>
                     <div className='link'>
                         <NavLink to="/Resume Template"><span>Resume Template</span></NavLink>
                         <NavLink to="My Resume"><span>My Resume</span></NavLink>

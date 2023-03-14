@@ -23,6 +23,7 @@ const Home = () => {
           <button className='btn' id='button' onClick={'go to next page'}> <b>Build Your Resume</b></button>
         </div>
       </div>
+      <hr />
       <div className='last-div'>
         <img src="https://lh3.googleusercontent.com/QcDy1LJweaj54J1aqzIZvcYnjeD6K1MsK-_ee6WXxcg7Biiku4gQfs0pei98S-j1H4HS6RSpL7y-DcCJvRRmYfAadXou0ntaFfoYSZDA" alt="" />
         <h2>
@@ -31,7 +32,7 @@ const Home = () => {
         <div className='header'>Resume.io’s online builder tool and collection of elegant, recruiter-tested templates are used by more than 10 million people around the globe! We are incredibly proud to empower so many active professionals.</div>
         <button className='btn' id='button onclick'>Get Started Now</button>
       </div>
-      <footer> &copy;2023 - Resume-Builder</footer>
+      <footer> &copy; 2023 - Resume-Builder</footer>
     </div>
   )
 }
