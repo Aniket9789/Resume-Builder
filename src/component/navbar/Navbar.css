@@ -1,5 +1,33 @@
-img{
-    width: 200px;
-    padding: 12px 12px;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.shadow{
+   display: flex;
+   align-items: center;
+   text-align: end;
+   justify-content: space-between;
+   padding: 14px;
+}
+
+
+ .shadow img{
+    width: 200px;
+    padding: 2px 7px;
+    margin: 0 30px;
+ }
+
+ .shadow .link a {
+    text-decoration: none;
+    padding: 0 12px;
+    color: black;
+    font-weight: 500;
+
+ }
+ .shadow .link a:hover{
+   color:#0d6efd ;
+   background-color:whitesmoke;
+   border-radius: 20px;
+ }
+ 
