@@ -30,7 +30,7 @@ const Home = () => {
         Why our customers love our resume builder
         </h2>
         <div className='header'>Resume.io’s online builder tool and collection of elegant, recruiter-tested templates are used by more than 10 million people around the globe! We are incredibly proud to empower so many active professionals.</div>
-        <button className='btn' id='button onclick'>Get Started Now</button>
+        <button className='btn' id='button onclick' >Get Started Now</button>
       </div>
       <footer> &copy; 2023 - Resume-Builder</footer>
     </div>
