@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .shadow{
    display: flex;
    align-items: center;
@@ -10,8 +6,16 @@
    justify-content: space-between;
    padding: 14px;
 }
-
-
+.conlink{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 20px;
+}
+.logo{
+   width: 40px;
+   height: 50px;
+}
  .shadow img{
     width: 200px;
     padding: 2px 7px;
@@ -23,7 +27,9 @@
     padding: 0 12px;
     color: black;
     font-weight: 500;
-
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 500;
  }
  .shadow .link a:hover{
    color:#0d6efd ;
@@ -32,10 +38,25 @@
  }
  .container .saprater{
    background-color: gray;
-    margin-left: 24px;
+   margin-left: 24px;
  }
  .container .btn{
    margin: 0 2px;
 
  }
+ .btn{
+   width: max-content;
+   height: 40px;
+   display: flex;
+   border: none;
+   border-radius: 10px;
+   margin-right: 5px;
+   align-items: center;
+   font-size: 14px;
+ }
  
+ .btncontainer{
+   display: flex;
+   text-align: center;
+   
+ }
