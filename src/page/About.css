@@ -1,8 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutcontainer h1{
+    width: 8.5rem;
+    padding: 25px;
+    line-height: 30px;
+}
+.aboutcontainer span{
+    font-size: 22px;
+    line-height: 28px;
+    /* margin-bottom: 24px; */
+    display: flex;
+    width: 57.857%;
+    padding: 23px;
+}
+.aboutimg{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 132px;
+    margin-top: -200px;
+}
+.aboutshare{
+    padding-top: 60px;
+    margin: 10px 20px;
 
-.container h1{
-    max-width: 8.5em;
-    margin-bottom: 24px;
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 52px;
+}
+.aboutshare a img{
+    width: 50px;
+    padding: 12px;
+}
+.Thankyou{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
 }

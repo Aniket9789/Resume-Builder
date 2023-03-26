@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.content{
+
+.homecontent {
     /* width: 46.857%; */
     padding-top: 104px;
     padding-bottom: 120px;
@@ -11,65 +12,82 @@
     background-color: #bec4d5;
 }
 
-.content h1{
+.homecontent h1 {
     max-width: 8.5em;
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 54px;
     line-height: 52px;
 }
-.content span{
+
+.homecontent span {
     font-size: 22px;
     line-height: 28px;
     margin-bottom: 24px;
     display: flex;
-    width: 30.857%
+    width: 28.857%
 }
-.content .btn{
+
+.homecontent .trybtn {
+    font-weight: bold;
     font-size: 22px;
     line-height: 28px;
     padding: 18px 40px;
     background-color: #0d6efd;
     color: white;
-}
-.logo{
-    display: flex;
-}
-.logo img{
-    width: 420px;
-    margin: 0 180px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
 }
 
-.promo h1{
+.home-logo {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.home-logo img {
+    width: 600px;
+    margin: 0 165px;
+}
+
+.promo h1 {
     max-width: 9.5em;
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 54px;
     line-height: 52px;
 }
-.promo p{
+
+.promo p {
     font-size: 22px;
-    width: 49.857%;
+    width: 74.857%;
     padding-top: 25px;
     padding-bottom: 40px;
     padding-left: 4px;
 }
 
-.promo .btn{
+.promo .buildbtn {
+    font-weight: bold;
     font-size: 22px;
     line-height: 28px;
     padding: 18px 40px;
     background-color: #0d6efd;
     color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
 }
-.last-div{
+
+.last-div {
     max-width: 550px;
     margin: 0 auto;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 25px;
 }
-h2{
+
+h2 {
     font-size: 40px;
     max-width: 11.5em;
     margin-left: auto;
@@ -78,25 +96,30 @@ h2{
     line-height: 50px;
 }
 
-.header{
+.homeheader {
     font-size: 22px;
-    width:  128.857%;
+    width: 128.857%;
     padding-top: 30px;
     padding-bottom: 40px;
     /* padding-left: 770px; */
 }
-.btn{
+
+.getbtn {
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
     padding: 18px 40px;
     background-color: #0d6efd;
     color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
 }
-footer{
-   background-color: #0f141e;
-   color: azure;
-   /* align-items: center; */
-   justify-content: center;
-   display: flex;
+
+footer {
+    background-color: #0f141e;
+    color: azure;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
 }

@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <>
             <div className="shadow">
-                <div className='logo'> <img src="https://almablog-media.s3.ap-south-1.amazonaws.com/image_19400_1_5042248765.png" alt="" /></div>
+                <div className='nav-logo'> <img src="https://almablog-media.s3.ap-south-1.amazonaws.com/image_19400_1_5042248765.png" alt="" /></div>
                <div className='conlink'>
-               <div className='container' style={{maxWidth:'1610px'}}>
+               <div className='navcontainer'>
                     <div className='link'>
                         <NavLink to="/resumetemplate"><span>Resume Template</span></NavLink>
                         <NavLink to="/myresume"><span>My Resume</span></NavLink>
@@ -15,8 +15,8 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='btncontainer'>
-                    <button className='btn btn-light'>Log In </button>
-                    <button className='btn btn-light'>Sign Up</button>
+                    <button className='navbtn1'>Log In </button>
+                    <button className='navbtn2'>Sign Up</button>
                 </div>
                </div>
             </div>
