@@ -5,6 +5,9 @@
    text-align: end;
    justify-content: space-between;
    padding: 14px;
+   -webkit-box-shadow: 1px 7px 15px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 7px 15px -7px rgba(0,0,0,0.75);
+box-shadow: 1px 7px 15px -7px rgba(0,0,0,0.75);
 }
 .conlink{
    display: flex;
@@ -58,14 +61,13 @@
    font-weight: bold;
    font-size: 22px;
    line-height: 28px;
-   padding: 18px 40px;
    background-color: #0d6efd;
    color: white;
    border-radius: 8px;
    cursor: pointer;
    border: none;
    margin: 0 12px;
-   padding: 18px 40px;
+   padding: 10px;
 }
  .btncontainer{
    display: flex;
